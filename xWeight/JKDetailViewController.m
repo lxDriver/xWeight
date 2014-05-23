@@ -57,6 +57,7 @@
     NSLog(@"Disappear: %f",[self.weightTextField.text floatValue]);
     
     [self.detailItem setValue:[NSNumber numberWithFloat:[self.weightTextField.text floatValue]] forKey:@"weight"];
+    
 }
 - (void)textFieldDidChange:(NSNotification*)notification {
     //NSLog(@"Changed: %f",[self.weightTextField.text floatValue]);
